@@ -7,6 +7,7 @@ from sentence_transformers import SentenceTransformer
 # cretea instance for embbeding model
 embbedder = SentenceTransformer('BAAI/bge-m3')
 
+# mysql connector
 db = mysql.connector.connect(
   host = "gateway01.ap-southeast-1.prod.aws.tidbcloud.com",
   port = 4000,
